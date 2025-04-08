@@ -14,12 +14,12 @@
 
         /* Navbar remains dark */
         .navbar {
-            background-color: #000; /* Keep navbar black */
+            background-color: #01193a; /* Keep navbar black */
         }
 
         /* Hero Section (Welcome) - Dark Gray */
         .hero-section {
-            background-color: #333; /* Dark Gray */
+            background-color: #000000; /* Dark Gray */
             background-size: cover;
             background-position: center;
             height: 80vh;
@@ -63,7 +63,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('home') }}">Gadget Store</a>
+            <a class="navbar-brand" href="{{ route('home') }}">Admin Gadget Store</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>

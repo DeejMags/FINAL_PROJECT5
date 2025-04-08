@@ -25,4 +25,5 @@ Route::middleware(['auth'])->group(function () {
     
     // Products Routes
     Route::resource('products', ProductController::class);
+    Route::get('/logout', [HomeController::class, 'logout'])->name('logout');
 });
