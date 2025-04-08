@@ -104,7 +104,7 @@
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="container text-center">
-            <h1 class="display-3 mb-4">Welcome to the Admin</h1>
+            <h1 class="display-3 mb-4">Welcome Admin</h1>
             <p class="lead mb-4">Editing some products and more!</p>
             <a href="{{ route('products.index') }}" class="btn btn-primary btn-lg">Edit Now</a>
         </div>
