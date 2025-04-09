@@ -73,10 +73,7 @@
                         <a class="nav-link" href="{{ route('about') }}">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('home') }}">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('products.index') }}">Products</a>
+                        <a class="nav-link" href="{{ route('products.index') }}">Dashboard</a>
                     </li>
                     @guest
                         <li class="nav-item">
@@ -86,9 +83,6 @@
                             <a class="nav-link" href="{{ route('signup') }}">Sign Up</a>
                         </li>
                     @else
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('dashboard') }}">Dashboard</a>
-                        </li>
                         <li class="nav-item">
                             <form action="{{ route('logout') }}" method="POST" class="d-inline">
                                 @csrf
