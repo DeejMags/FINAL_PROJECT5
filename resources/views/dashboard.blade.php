@@ -66,9 +66,9 @@
         <h1>Admin Dashboard</h1>
 
         <div class="button-container">
-            <a href="{{ route('home') }}" class="button add" style="background-color: rgb(13, 13, 117);">🏠 Home</a>
-            <a href="{{ route('products.create') }}" class="button add">➕ Add Product</a>
-            <a href="{{ route('logout') }}" class="button logout">🚪 Logout</a>
+            <a href="{{ route('home') }}" class="button add" style="background-color: rgb(13, 13, 117);"> Home</a>
+            <a href="{{ route('products.create') }}" class="button add"> Add Product</a>
+            <a href="{{ route('logout') }}" class="button logout"> Logout</a>
         </div>
 
         <h2>Product List</h2>
